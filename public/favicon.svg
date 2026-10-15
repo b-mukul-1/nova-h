@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#0B1F3A" />
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+  <!-- Background rounded squircle -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="#0B1F3A" />
+  
+  <!-- Outer geometric faceted polygon -->
+  <polygon points="24,8 38,16 38,32 24,40 10,32 10,16" fill="none" stroke="url(#cyanGlow)" stroke-width="2.5" stroke-linejoin="round" />
+  
+  <!-- Central tech node -->
+  <polygon points="24,14 33,20 33,28 24,34 15,28 15,20" fill="url(#brandGrad)" />
+  
+  <!-- Dynamic accent core -->
+  <circle cx="24" cy="24" r="3.5" fill="#60A5FA" />
+  <line x1="24" y1="8" x2="24" y2="14" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" />
+  <line x1="38" y1="32" x2="33" y2="28" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" />
+  <line x1="10" y1="32" x2="15" y2="28" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" />
+</svg>
